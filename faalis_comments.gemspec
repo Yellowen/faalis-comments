@@ -19,5 +19,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'faalis', '~> 2'
   s.add_dependency 'acts_as_commentable_with_threading'
+
   s.add_development_dependency 'sqlite3'
 end
