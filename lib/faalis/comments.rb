@@ -1,8 +1,8 @@
-module Faalis
-  class Comments < ::Rails::Engine
-    isolate_namespace Faalis
-    engine_name 'faalis_comments'
+require 'faalis'
 
-    VERSION = '0.1.0'
+module Faalis
+  module Comments
   end
 end
+
+require 'faalis/comments/engine'
