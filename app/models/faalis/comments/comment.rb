@@ -1,5 +1,7 @@
 module Faalis::Comments
   class Comment < ActiveRecord::Base
+
+    self.table_name = 'faalis_comments'
     acts_as_nested_set scope: [:commentable_id, :commentable_type]
 
     validates :body, presence: true
