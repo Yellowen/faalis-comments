@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "faalis_comments/version"
+require "faalis/comments/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "faalis-comments"
-  s.version     = FaalisComments::VERSION
+  s.version     = Faalis::Comments::VERSION
   s.authors     = ["Sameer Rahmani"]
   s.email       = ["lxsameer@gnu.org"]
   s.homepage    = "https://github.com/Yellowen/faalis_comments"
