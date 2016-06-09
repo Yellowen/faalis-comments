@@ -1,6 +1,7 @@
 require 'faalis'
-require 'awesome_nested_set'
-require 'acts_as_commentable_with_threading'
+#require 'awesome_nested_set'
+#require 'acts_as_commentable_with_threading'
+require 'acts_as_commentable'
 
 module Faalis
   module Comments
